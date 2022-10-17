@@ -1,5 +1,7 @@
 
 
+## [1.1.1](https://github.com/NewNameArk/create-lio-fs/compare/1.1.0...1.1.1) (2022-10-17)
+
 # 1.1.0 (2022-10-17)
 
 
