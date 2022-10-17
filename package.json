@@ -1,0 +1,53 @@
+{
+  "name": "create-lio-fs",
+  "version": "1.0.0",
+  "description": "A  cli to create fs project(vite+vue3+ts+pinia+vue-router) with several demo pages",
+  "bin": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "commit": "git-cz",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewNameArk/create-lio-fs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NewNameArk/create-lio-fs/issues"
+  },
+  "homepage": "https://github.com/NewNameArk/create-lio-fs#readme",
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
+    "git-cz": "^4.9.0",
+    "release-it": "^15.5.0",
+    "rollup": "^3.2.2",
+    "typescript": "^4.8.4"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    },
+    "git": {
+      "commitMessage": "release: v${version}"
+    },
+    "npm": {
+      "publish": false
+    },
+    "hooks": {
+      "after:bump": "echo 更新版本成功"
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular",
+        "infile": "CHANGELOG.md"
+      }
+    }
+  },
+  "dependencies": {
+    "execa": "^6.1.0"
+  }
+}

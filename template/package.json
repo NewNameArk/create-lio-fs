@@ -1,0 +1,52 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "commit": "git-cz",
+    "dev": "vite --host",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "release": "release-it"
+  },
+  "dependencies": {
+    "pinia": "^2.0.23",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
+    "@types/jest": "^29.1.2",
+    "@types/node": "^18.8.5",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "git-cz": "^4.9.0",
+    "release-it": "^15.5.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vitest": "^0.24.1",
+    "vue-tsc": "^0.38.4"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    },
+    "git": {
+      "commitMessage": "release: v${version}"
+    },
+    "npm": {
+      "publish": false
+    },
+    "hooks": {
+      "after:bump": "echo 更新版本成功"
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular",
+        "infile": "CHANGELOG.md"
+      }
+    }
+  }
+}
