@@ -1,5 +1,12 @@
 
 
+# [1.2.0](https://github.com/NewNameArk/create-lio-fs/compare/1.1.1...1.2.0) (2022-10-17)
+
+
+### Features
+
+* 🎸 模板部分的文件 ([a1e640d](https://github.com/NewNameArk/create-lio-fs/commit/a1e640da1dc5556bc4d44f4b3553148f0ac5b57a))
+
 ## [1.1.1](https://github.com/NewNameArk/create-lio-fs/compare/1.1.0...1.1.1) (2022-10-17)
 
 # 1.1.0 (2022-10-17)
