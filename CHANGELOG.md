@@ -1,5 +1,7 @@
 
 
+## [1.2.2](https://github.com/NewNameArk/create-lio-fs/compare/1.2.1...1.2.2) (2022-10-17)
+
 * 打包mjs文件 (1853337)
 
 ## [1.2.1](https://github.com/NewNameArk/create-lio-fs/compare/1.2.0...1.2.1) (2022-10-17)
