@@ -3,7 +3,7 @@ export default [{
 	output: { file: "dist/web.js", format: "cjs" }
 }, {
 	input: "src/index.js",
-	output: { file: "dist/web.esm.js", format: "esm" }
+	output: { file: "dist/index.mjs", format: "esm" }
 }, {
 	input: "src/index.js",
 	output: { file: "dist/web.umd.js", format: "umd", name: "mxDev" }
