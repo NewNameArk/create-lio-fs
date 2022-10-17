@@ -4,6 +4,10 @@
   "description": "A  cli to create fs project(vite+vue3+ts+pinia+vue-router) with several demo pages",
   "bin": "index.js",
   "type": "module",
+  "files": [
+    "index.js",
+    "template"
+  ],
   "scripts": {
     "build": "rollup -c",
     "commit": "git-cz",
