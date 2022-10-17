@@ -1,5 +1,12 @@
 
 
+# 1.1.0 (2022-10-17)
+
+
+### Features
+
+* 🎸 全局增加 ([35eb44a](https://github.com/NewNameArk/create-lio-fs/commit/35eb44a99f1687541c92a1c4be3fd1864804e6c4))
+
 # 0.1.0 (2022-10-14)
 
 
