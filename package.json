@@ -2,7 +2,9 @@
   "name": "create-lio-fs",
   "version": "1.2.2",
   "description": "A  cli to create fs project(vite+vue3+ts+pinia+vue-router) with several demo pages",
-  "bin": "index.js",
+  "bin": {
+    "create-lio-fs": "index.js"
+  },
   "type": "module",
   "files": [
     "index.js",
