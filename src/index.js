@@ -3,11 +3,15 @@
 import path from 'node:path'
 import fs from 'node:fs'
 import { execa } from 'execa';
+import { fileURLToPath } from 'node:url'
 
 const templateDir = path.resolve(
-  '../',
+  fileURLToPath(import.meta.url),
+  '../..',
   `template`
 )
+
+console.log(templateDir)
 
 const cwd = process.cwd()
 const root = path.join(cwd)
